@@ -14,8 +14,10 @@ Python says [ 0.  1.  2.]
 Go says [0 1 2]
 ```
 
-Code is based on these two examples:
+The code is based on these two sources:
+
 https://scipy-lectures.github.io/advanced/interfacing_with_c/interfacing_with_c.html#id5
+
 https://github.com/golang/go/wiki/cgo#turning-c-arrays-into-go-slices
 
 

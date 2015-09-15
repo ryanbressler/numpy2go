@@ -6,6 +6,9 @@ import ctypes
 
 import numpy.ctypeslib as npct
 
+# For more information see:
+# https://scipy-lectures.github.io/advanced/interfacing_with_c/interfacing_with_c.html#id5
+
 numpy2go = npct.load_library("numpy2go", ".")
 
 array_1d_double = npct.ndpointer(dtype=np.double, ndim=1, flags='CONTIGUOUS')

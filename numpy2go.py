@@ -18,7 +18,7 @@ numpy2go.Test.argtypes = [array_1d_double, ctypes.c_int]
 
 data = np.array([0.0, 1.0, 2.0])
 
-print "Python says", data
+print("Python says", data)
 
 numpy2go.Test(data, len(data))
 
